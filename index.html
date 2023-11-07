@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Watchnow</title>
+</head>
+
+<body class="bg-light ">
+    <!-- ----------------------navbar---------------------------- -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">WatchNow</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICE</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="d-flex align-items-center mx-auto justify-content-center    mt-3   ">
+                    <li class="me-2  "><a class="text-black " href=""><i class="bi bi-search h4 "></i></a></li>
+                    <li class="me-2 "><a class="text-black" href=""><i class="bi bi-person-circle h4 "></i></a></li>
+                    <li class="me-2 "><a class="text-black" href=""><i class="bi bi-heart h4  "></i></a></li>
+                    <li class=""><a class="text-black " href=""><i class="bi bi-cart-check h4 "></i></a></li>
+                </ul>
+                <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ---------------------navbar-ends------------------------ -->
+    <!-- ---------------------------hero-starts--------------------------- -->
+    <section id="landing">
+        <div class="row"  data-aos="fade-right">
+            <div id="landing-1" class="col-lg-6 z-1  d-flex  align-items-center">
+                <div class="ms-5 text-white">
+                    <h1 class="h1  mb-3 md-fs-5 ">Timeless Elegance, <br> Caputered on Your Wrist</h1>
+                    <p class="h4 my-3  ">"Exquisite Watches, Timelessly Yours"</p>
+                    <button class="btn btn-dark btn-outline-light ms-2 ">Shop Collections</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------hero-ends--------------------------- -->
+
+    <!-- ---------------------------watches-start--------------------------- -->
+    <section class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 p-4 ">
+                    <h2>Featured Products</h2>
+                </div>
+                <div class="col-lg-6 p-1">
+                    <p>"Everyday Luxury is a versatile timepiece that effortlessly complements your daily wardrobe. Its
+                        sleek design, accurate movement, and comfortable build make it the ideal choice for those
+                        seeking a stylish watch for everyday wear."
+                    </p>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="d-flex justify-content-evenly flex-wrap  ">
+                    <div class="card" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#watch1" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <img src="./images/w1.jpg" class="card-img-top" alt="...">
+                        <span class="element px-2 text-black rounded bg-body-secondary fs-5  "><i
+                                class="bi bi-heart"></i></span>
+                        <div class="card-body">
+                            <h4>Titan Analog Watch</h4>
+                            <p>For Men NP1771SM03</p>
+                            <p><span class="fs-5  fw-bold ">$635</span> <del>763</del> <span class="text-success ">10%
+                                    Off &nbsp;&nbsp;&nbsp;</span><span
+                                    class="px-2 text-black border border-2 bg-body-tertiary rounded   fs-3"><i
+                                        class="bi bi-cart3"></i></span></p>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-1 modal start----------------------------------------------------- -->
+                    <div class="modal fade" id="watch1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fw-bold  fs-5" id="exampleModalLabel">Fastrack Analog watch
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch-1.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch12.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch13.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch14.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success ">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-1-modal-ends---------------------------------- -->
+                    <div class="card" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#watch2" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <img src="./images/w2.jpg" class="card-img-top" alt="...">
+                        <span class="element px-2 text-black rounded bg-body-secondary fs-5  "><i
+                                class="bi bi-heart"></i></span>
+                        <div class="card-body">
+                            <h4>Allen Solly Analog Watch</h4>
+                            <p>For Men AS000010E</p>
+                            <p><span class="fs-5  fw-bold ">$833</span> <del>900</del> <span class="text-success ">10%
+                                    Off &nbsp;&nbsp;&nbsp;</span><span
+                                    class="px-2 text-black border border-2 bg-body-tertiary rounded   fs-3"><i
+                                        class="bi bi-cart3"></i></span></p>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-2 modal start----------------------------------------------------- -->
+                    <div class="modal fade" id="watch2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fw-bold  fs-5" id="exampleModalLabel">Allen Solly Analog
+                                        Watch</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active " data-bs-interval="2000">
+                                                <img src="./images/carousel/watch-2.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch-22.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch23.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch24.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success ">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-1-modal-ends---------------------------------- -->
+
+                    <div class="card" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#watch3" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <img src="./images/w3.jpg" class="card-img-top" alt="...">
+                        <span class="element px-2 text-black rounded bg-body-secondary fs-5  "><i
+                                class="bi bi-heart"></i></span>
+                        <div class="card-body">
+                            <h4>LACOSTE Jewelry Watch</h4>
+                            <p>For Men AS000010E</p>
+                            <p><span class="fs-5  fw-bold ">$783</span> <del>893</del> <span class="text-success ">10%
+                                    Off &nbsp;&nbsp;&nbsp;</span><span
+                                    class="px-2 text-black border border-2 bg-body-tertiary rounded   fs-3"><i
+                                        class="bi bi-cart3"></i></span></p>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-3 modal start----------------------------------------------------- -->
+                    <div class="modal fade" id="watch3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fw-bold  fs-5" id="exampleModalLabel">LACOSTE Jewelry Watch
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch3.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch32.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch33.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch34.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success ">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-3-modal-ends---------------------------------- -->
+                    <div class="card" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#watch4" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <img src="./images/w4.jpg" class="card-img-top" alt="...">
+                        <span class="element px-2 text-black rounded bg-body-secondary fs-5  "><i
+                                class="bi bi-heart"></i></span>
+                        <div class="card-body">
+                            <h4>Fastrack Analog watch</h4>
+                            <p>For Men AS000010E</p>
+                            <p><span class="fs-5  fw-bold ">$746</span> <del>763</del> <span class="text-success ">10%
+                                    Off &nbsp;&nbsp;&nbsp;</span><span
+                                    class="px-2 text-black border border-2 bg-body-tertiary rounded   fs-3"><i
+                                        class="bi bi-cart3"></i></span></p>
+                        </div>
+                    </div>
+
+                    <!-- -----------------------------------watch-4 modal start----------------------------------------------------- -->
+                    <div class="modal fade" id="watch4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fw-bold  fs-5" id="exampleModalLabel">Fastrack Analog watch
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="2000">
+                                                <img src="./images/carousel/w1.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/w12.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/w13.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/w14.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success ">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-4-modal-ends---------------------------------- -->
+                </div>
+            </div>
+            <div class="row my-4 ">
+                <div class="d-flex justify-content-evenly flex-wrap  ">
+                    <div class="card" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#watch5" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <img src="./images/w5.jpg" class="card-img-top" alt="...">
+                        <span class="element px-2 text-black rounded bg-body-secondary fs-5  "><i
+                                class="bi bi-heart"></i></span>
+                        <div class="card-body">
+                            <h4>TIMEX Analog Watch</h4>
+                            <p>For Men NP1771SM03</p>
+                            <p><span class="fs-5  fw-bold ">$879</span> <del>940</del> <span class="text-success ">10%
+                                    Off &nbsp;&nbsp;&nbsp;</span><span
+                                    class="px-2 text-black border border-2 bg-body-tertiary rounded   fs-3"><i
+                                        class="bi bi-cart3"></i></span></p>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-5 modal start----------------------------------------------------- -->
+                    <div class="modal fade" id="watch5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fw-bold  fs-5" id="exampleModalLabel">LACOSTE Jewelry Watch
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch5.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch52.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch53.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch54.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success ">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-5-modal-ends---------------------------------- -->
+                    <div class="card" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#watch6" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <img src="./images/w6.jpg" class="card-img-top" alt="...">
+                        <span class="element px-2 text-black rounded bg-body-secondary fs-5  "><i
+                                class="bi bi-heart"></i></span>
+                        <div class="card-body">
+                            <h4>Fastrack PARTY Analog Watch</h4>
+                            <p>For Men NP0876447d</p>
+                            <p><span class="fs-5  fw-bold ">$736</span> <del>984</del> <span class="text-success ">10%
+                                    Off &nbsp;&nbsp;&nbsp;</span><span
+                                    class="px-2 text-black border border-2 bg-body-tertiary rounded   fs-3"><i
+                                        class="bi bi-cart3"></i></span></p>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-6 modal start----------------------------------------------------- -->
+                    <div class="modal fade" id="watch6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fw-bold  fs-5" id="exampleModalLabel">Fastrack PARTY Analog
+                                        Watch
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch6.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch62.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch63.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch64.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success ">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-6-modal-ends---------------------------------- -->
+                    <div class="card" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#watch7" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <img src="./images/w7.jpg" class="card-img-top" alt="...">
+                        <span class="element px-2 text-black rounded bg-body-secondary fs-5  "><i
+                                class="bi bi-heart"></i></span>
+                        <div class="card-body">
+                            <h4>Titan Karishma Analog watch</h4>
+                            <p>For Men NN1639SM02</p>
+                            <p><span class="fs-5  fw-bold ">$633</span> <del>690</del> <span class="text-success ">10%
+                                    Off &nbsp;&nbsp;&nbsp;</span><span
+                                    class="px-2 text-black border border-2 bg-body-tertiary rounded   fs-3"><i
+                                        class="bi bi-cart3"></i></span></p>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-7 modal start----------------------------------------------------- -->
+                    <div class="modal fade" id="watch7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fw-bold  fs-5" id="exampleModalLabel">Titan Karishma Analog
+                                        watch
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch7.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch72.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch73.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch74.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success ">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-7-modal-ends---------------------------------- -->
+                    <div class="card" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#watch8" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <img src="./images/w8.jpg" class="card-img-top" alt="...">
+                        <span class="element px-2 text-black rounded bg-body-secondary fs-5  "><i
+                                class="bi bi-heart"></i></span>
+                        <div class="card-body">
+                            <h4>Fastrack Tik tok Analog watch</h4>
+                            <p>For Men 3287QM01</p>
+                            <p><span class="fs-5  fw-bold ">$764</span> <del>894</del> <span class="text-success ">10%
+                                    Off &nbsp;&nbsp;&nbsp;</span><span
+                                    class="px-2 text-black border border-2 bg-body-tertiary rounded   fs-3"><i
+                                        class="bi bi-cart3"></i></span></p>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-8 modal start----------------------------------------------------- -->
+                    <div class="modal fade" id="watch8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fw-bold  fs-5" id="exampleModalLabel">Fastrack Tik tok Analog
+                                        watch
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch8.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch82.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch83.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./images/carousel/watch84.jpg" class="d-block w-100"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success ">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------watch-8-modal-ends---------------------------------- -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------watch-ends--------------------------- -->
+
+    <section class="my-3 bg-light">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <img class="w-100" src="./images/brand.jpg" alt="">
+                        </div>
+                        <div class="col-12">
+                            <p class="fs-5 ">"Elevate your style with 'The Classic Elegance' watch. This timeless piece
+                                features a stainless steel case."</p>
+                            <!-- <button class="btn text-white bg-black ">Shop now</button> -->
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col"></div>
+                <div class="col-lg-5  ">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>NEW COLLECTIONS</h4>
+                            <h1>The Classic Elegance & Modern Minimalist</h1>
+                            <p class="fs-5 ">"Embrace simplicity and elegance with The Modern Minimalist. This watch
+                                combines a sleek
+                                design with high-quality craftsmanship, making it a masterpiece that is both
+                                contemporary and sophisticated."</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <img class="w-100" src="./images/wset.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container my-5">
+            <div class="row mb-3 ">
+                <div class="col-lg-6">
+                    <h2>Best Selling Products</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p>"For those who embrace the great outdoors, 'The Adventure Seeker' is the ideal companion. With
+                        its durable construction, water resistance, and rugged design, this sports watch is ready for
+                        any challenge, whether on land or underwater."</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card w-75 mx-auto  "  data-aos="flip-right">
+                        <img src="./images/pw.jpg" class="card-img-top " alt="...">
+                        <div class="py-1 px-1 bg-white w-75  c-body">
+                            <span class="d-flex list-unstyled text-warning  justify-content-center  ">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class=" ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1  bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                            </span>
+                            <span class="fw-bold ">Rolex Submariner</span> <br><span
+                                class="fst-italic ">$1200-$1238</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75 mx-auto  "  data-aos="flip-right">
+                        <img src="./images/pw2.jpg" class="card-img-top " alt="...">
+                        <div class="py-1 px-1 bg-white w-75  c-body">
+                            <span class="d-flex list-unstyled text-warning  justify-content-center  ">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class=" ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1  bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                                <li><i class=" ms-1 bi bi-star-half"></i></li>
+                            </span>
+                            <span class="fw-bold ">TAG Heuer</span> <br><span class="fst-italic ">$1300-$1348</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75 mx-auto  "  data-aos="flip-right">
+                        <img src="./images/pw3.jpg" class="card-img-top " alt="...">
+                        <div class="py-1 px-1 bg-white w-75  c-body">
+                            <span class="d-flex list-unstyled text-warning  justify-content-center  ">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class=" ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1  bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                            </span>
+                            <span class="fw-bold ">Audemars Piguet</span> <br><span
+                                class="fst-italic ">$1204-$1278</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-4 ">
+                <div class="col-lg-4">
+                    <div class="card w-75 mx-auto  "  data-aos="flip-right">
+                        <img src="./images/pw4.jpg" class="card-img-top " alt="...">
+                        <div class="py-1 px-1 bg-white w-75  c-body">
+                            <span class="d-flex list-unstyled text-warning  justify-content-center  ">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class=" ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1  bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                            </span>
+                            <span class="fw-bold ">IWC Schaffhausen</span> <br><span
+                                class="fst-italic ">$1190-$1200</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75 mx-auto  "  data-aos="flip-right">
+                        <img src="./images/pw5.jpg" class="card-img-top " alt="...">
+                        <div class="py-1 px-1 bg-white w-75  c-body">
+                            <span class="d-flex list-unstyled text-warning  justify-content-center  ">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class=" ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1  bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                            </span>
+                            <span class="fw-bold ">Jaeger-LeCoultre</span> <br><span
+                                class="fst-italic ">$1372-$1390</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75 mx-auto  "  data-aos="flip-right">
+                        <img src="./images/pw6.jpg" class="card-img-top " alt="...">
+                        <div class="py-1 px-1 bg-white w-75  c-body">
+                            <span class="d-flex list-unstyled text-warning  justify-content-center  ">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class=" ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1  bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                                <li><i class="ms-1 bi bi-star-fill"></i></li>
+                            </span>
+                            <span class="fw-bold ">Rolex Submariner</span> <br><span
+                                class="fst-italic ">$1239-$1280</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="https://www.titan.co.in/wps/wcm/connect/titanrt/0a959ab0-fa0f-48dd-a566-83934d8296d8/desktop/TD_Steller_251023.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-0a959ab0-fa0f-48dd-a566-83934d8296d8-desktop-oJCFTbo"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="https://www.titan.co.in/wps/wcm/connect/titanrt/9a307d6d-a5cb-4c52-84b0-57b719fd0d1d/desktop/TD_IntlSale_031123.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-9a307d6d-a5cb-4c52-84b0-57b719fd0d1d-desktop-oKlpdy3"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row text-center mt-3 ">
+            <h1>-From our Blog-</h1>
+            <p>The fascinating Word of Vintage Watches</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card blog mx-auto border-0 rounded" style="width: 90%;" data-aos="flip-up">
+                        <img src="./images/right.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span>COLLECTION 23 Apr 2023</span>
+                            <h5 class="fw-bold ">Choosing the Right Watch</h5>
+                            <p class="text-secondary ">A article to help readers to select watch that complements their
+                                personal style,whether
+                                is's classy,sporty,minimalist,or adventures</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card blog mx-auto border-0 rounded" style="width: 90%;" data-aos="flip-up">
+                        <img src="./images/service.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span>COLLECTION 23 Jun 2023</span>
+                            <h5 class="fw-bold ">Watch Care 101</h5>
+                            <p class="text-secondary ">Provide tips and tricks for proper watch care including
+                                cleaning,maintainence and storage
+                                ,to ensure that watch remains in proper condition</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card blog mx-auto border-0 rounded" style="width: 90%;" data-aos="flip-up">
+                        <img src="./images/swiss.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span>COLLECTION 23 Apr 2023</span>
+                            <h5 class="fw-bold ">The significance of Swiss Watches</h5>
+                            <p class="text-secondary ">Swiss watches epitomize precision, luxury, and timeless style,
+                                setting the global
+                                benchmark for horological excellence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-black  text-white ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 p-5 mx-auto ">
+                    <h2>Get our emails for info on new items,sales and more</h2>
+                    <div class="d-flex my-2 ">
+                        <input class="py-2 ps-2 border  pe-5 border-end-0 " type="email" placeholder="Enter you Email"
+                            style="color: black;">
+                        <button class="py-2 bg-black text-white border border-white ">Subscribe</button>
+                    </div>
+                    <p class="text-secondary ">*By subscribing you agree our terms and conditions and privacy & Cookies
+                        policy</p>
+
+                </div>
+                <div class="col-lg-6 p-5 ">
+                    <div>
+                        <Span class="fw-bold ">Apps</Span><br>
+                        <i class="bi fs-1 mx-2  bi-google-play"></i>
+                        <i class="bi fs-1  bi-apple"></i>
+                    </div>
+                    <div>
+                        <span class="fw-bold ">Follow us on Social media</span><br>
+                        <i class="bi fs-1 mx-2  bi-facebook"></i>
+                        <i class="bi fs-1 me-2  bi-twitter-x"></i>
+                        <i class="bi fs-1 me-2  bi-instagram"></i>
+                        <i class="bi fs-1 me-2  bi-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container pt-4 pb-2 ">
+            <div class="row">
+            <div class="d-flex  justify-content-around col-lg-6 ">
+                <div>
+                    <ul>
+                        <li class="fw-bold mb-3 "><i class="bi bi-collection-play-fill me-2 "></i>WATCH NOW</li>
+                        <li class="mb-1 ">Customer</li>
+                        <li class="mb-1 ">+91 625357455</li>
+                        <li class="mb-1 ">Live support</li>
+                        <li class="mb-1 ">roshanroy359@gmail.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="fw-bold mb-3 ">Popular search</li>
+                        <li class="mb-1 ">Collections</li>
+                        <li class="mb-1 ">Men's watch</li>
+                        <li class="mb-1 ">Women's watch</li>
+                        <li class="mb-1 ">New Arrivals</li>
+                        <li class="mb-1 ">Sales & clearence</li>
+                        <li class="mb-1 ">Accessories</li>
+                        <li class="mb-1 ">Quality assurance</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex  justify-content-around col-lg-6 ">
+                <div>
+                    <ul>
+                        <li class="fw-bold mb-3 ">Quick links</li>
+                        <li class="mb-1 ">Privacy policy</li>
+                        <li class="mb-1 ">Pricing terms</li>
+                        <li class="mb-1 ">Our services</li>
+                        <li class="mb-1 ">career</li>
+                        <li class="mb-1 ">Contact support</li>
+                        <li class="mb-1 ">Contacts</li>
+                        <li class="mb-1 ">FAQ</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="fw-bold mb-3 ">Discover</li>
+                        <li class="mb-1 ">Chennai</li>
+                        <li class="mb-1 ">Mumbai</li>
+                        <li class="mb-1 ">Kolkata</li>
+                        <li class="mb-1 ">Delhi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <hr>
+            <div class="d-flex justify-content-between ">
+                <span><i class="bi bi-c-circle me-2 "></i>Copyright.All right reserved</span>
+                <span>
+                    <ul class="d-flex mx-3 ">
+                        <li class="mx-2 ">Privacy</li>
+                        <li class="mx-2 ">Terms</li>
+                        <li>Site-map</li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+</html>
